@@ -23,9 +23,19 @@ end
   end
 
   def actors_by_show
-    result = Hash.new([])
+  result = []
       @shows.each do |show|
-        result[show] = show.actors
+    show.actors
       end
-      result
     end
+  
+
+#     def prolific_actors
+#     prolific_actors = []
+#     @shows.each do |show|
+#
+#       end
+#     end
+#     result
+#   end
+# end
